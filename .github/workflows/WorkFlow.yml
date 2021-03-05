@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+        #GH Issues to Azure Devops  
+      - name: GitHub Issues to Azure DevOps
+        uses: danhellem/github-actions-issue-to-work-item@1.6
+         
